@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="images/logo.png"> 
+    <title>Prophet's Companion Orphanage | Orphanage</title>
+    <link rel="stylesheet" href="home-page.css">
+</head>
+<body id="container">
+    <div class="header">
+       
+        <img src="images/logo.jpg" class="logo" alt="Prophet's Companion Orphanage">
+        <div class="vertical-divider"></div>
+
+        <nav>
+        <a href="home-page.html" target="_self">Homepage</a>
+        <a href="about-us.html" target="_self">About</a>
+        <a href="donations.html" target="_self">Donations</a>
+        <a href="activites-index.html" target="_self">Activites</a>
+        <a href="contributors.html" target="_self">Contributors</a>
+        <a href="volunteering-index.html" target="_self">Volunteering</a>
+        </nav>
+        <div class="vertical-divider2"></div>
+        <p><strong>Prophet's Companion Orphanage - A place of care, a path to a <br>better tomorrow</strong></p>
+    </div>
+
+    <section>
+        <div class="volunteering_types">
+            <table style="table-layout: fixed; width: 100%" align="center">
+                <tr>
+                    <td><a href="Volunteering-page1.html">Becoming a Teacher</a></td>
+                    <td><a href="Volunteering-page2.html">Becoming a Caretaker</a></td>
+                    <td><a href="Volunteering-page3.html">Becoming an Art Instructor</a></td>
+                    <td><a href="Volunteering-page4.html">Fitness Instructor</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/B223.jpg" alt="Teacher" width="350px"></td>
+                    <td><img src="images/k.avif" alt="Caretaker" width="350px"></td>
+                    <td><img src="images/istockphoto-684061980-612x612.jpg" alt="Art Instructor" width="350px"></td>
+                    <td><img src="images/Rescue-Sports-Clinic-2.jpg" alt="Fitness Instructor" width="370" height="250"></td>
+                </tr>
+                <tr>
+                    <td>Our Teachers:</td>
+                    <td>Our Caretakers:</td>
+                    <td>Our Art Instructors:</td>
+                    <td>Our Fitness Instructors:</td>
+                </tr>
+                <tr>
+                    <td>Provide Personalized Education...</td>
+                    <td>Our caretakers ensure safety...</td>
+                    <td>Art instructors encourage creative expression...</td>
+                    <td>Fitness instructors promote a healthy lifestyle...</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+
+    <form action="thanks.html" method="POST" onsubmit="return validateForm()">
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Phone Number:</label><br />
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <label for="experience">Do you have experience volunteering or participating in NPO activities?</label><br />
+        <input type="text" id="experience" name="experience" required /><br /><br />
+
+        <label for="motivation">Why would you like to volunteer with us?</label><br />
+        <input type="text" id="motivation" name="motivation" required /><br /><br />
+
+        <input type="submit" value="Submit Application" />
+    </form>
+
+   
+    <p id="myerror" style="color: red;"></p>
+
+    <div class="footer">
+        <h1>Contact information</h1>
+        <hr />
+        <br />
+        <table width="100%">
+            <tr align="center">
+                <td>About us</td>
+                <td><u>Contact Prophet's Companions Orphanage</u></td>
+                <td>Working Hours</td>
+                <td>Additional Options</td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <h4>Prophet's Companions Orphanage provides not only shelter but also happiness, love...</h4>
+                    <a href="about-us.html">Learn More</a>
+                </td>
+                <td align="center">
+                    <p>6th of October - Giza - Fourth District...</p>
+                    <p>Direct Phone Number:<br />+201148886000<br />+201148883000<br />+201148882000</p>
+                    <p>Germinhesin@gmail.com</p>
+                </td>
+                <td align="center">
+                    <p>Monday 10:00 AM - 10:00 PM<br />Tuesday 10:00 AM - 10:00 PM...</p>
+                </td>
+                <td align="center">
+                    <a href="news-form.html">News updates</a>
+                </td>
+            </tr>
+            <tr>
+                <td class="icons">
+                    <a href="https://www.facebook.com/login.php/"><img src="images/facebookicon.png" width="28px" height="20px" /></a>
+                    <a href="https://x.com/i/flow/login"><img src="images/Xicon.png" width="20px" height="20px" /></a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="volunteering-validate.js"></script>
+</body>
+</html>
